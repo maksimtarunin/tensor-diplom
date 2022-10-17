@@ -3,7 +3,6 @@
 
 <head>
    <meta charset="utf-8" />
-   <link rel="stylesheet" href="./index.css">
    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <meta name="theme-color" content="#000000" />
@@ -14,100 +13,6 @@
 <body>
    <noscript>You need to enable JavaScript to run this app.</noscript>
    <div id="root"></div>
-   <div class="container">
-      <header class="header">
-         <div class="header__leftPart">
-            <div class="header__back-button">
-               <button class="button-back"><img src="./img/leftButton.svg" alt="button-back"></button>
-            </div>
-            <div class="header__forward-button">
-               <button class="button-forward"><img src="./img/rightButton.svg" alt="button-forward"></button>
-            </div>
-            
-            <div class="header__searchBar">
-               <input type="text" placeholder="What do you want to listen to?" maxlength="800" class="header__search">
-            </div>
-         </div>
-
-
-         <div class="header__user-menu">
-            <div class="header__user">
-               <span class="username">Username</span>
-               <img src="./img/menuButton.svg" alt="">
-            </div>
-         </div>
-      </header>
-
-      <nav class="navigation">
-         <div class="navigation__wrapper">
-            <img src="./img/logo.svg" alt="logo" class="navigation__logo">
-
-            <ul class="navigation__list">
-               <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                     <img class="navigation__icon" src="./img/home.svg" alt="icon">
-                     <span class="navigation__title">Главная</span>
-                  </a>
-               </li>
-               <li class="navigation__item">
-                  <a href="#" class="navigation__link active">
-                     <img class="navigation__icon" src="./img/searchActive.svg" alt="search">
-                     <span class="navigation__title">Поиск</span>
-                  </a>
-               </li>
-               <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                     <img class="navigation__icon" src="./img/media.svg" alt="media">
-                     <span class="navigation__title">Моя медиатека</span>
-                  </a>
-               </li>
-            </ul>
-
-            <ul class="navigation__music">
-               <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                     <img class="navigation__icon" src="./img/create.svg" alt="create">
-                     <span class="navigation__title">Создать плейлист</span>
-                  </a>
-               </li>
-               <li class="navigation__item">
-                  <a href="#" class="navigation__link">
-                     <img class="navigation__icon" src="./img/favourite.svg" alt="favourite">
-                     <span class="navigation__title">Любимые треки</span>
-                  </a>
-               </li>
-            </ul>
-         </div>
-
-      </nav>
-
-      <main class="content">
-         <div class="content__found">
-            <h2 class="content__title"></h2>
-            <div class="content__page">
-               <div class = "content__pageBackButton">
-                  <button class="button-pageBack"><img src="./img/leftButton.svg" alt="button-pageBack"></button>
-               </div>
-               <div class = "content__pageNumber"> </div>
-               <div class = "content__pageForwardButton">
-                  <button class="button-pageForward"><img src="./img/rightButton.svg" alt="button-pageForward"></button>
-               </div>
-            </div>
-            <div class="content__albums">
-            </div>
-         </div>
-      </main>
-   </div>
-
-   <div class="popup">
-      <div class="popup__body">
-         <div class="popup__content">
-            <ul class="popup__list"></ul>
-            <a href="" class="popup__close">Закрыть</a>
-         </div>
-      </div>
-   </div>
-
-   <script defer src="./scripts.js"></script>
 </body>
+
 </html>
